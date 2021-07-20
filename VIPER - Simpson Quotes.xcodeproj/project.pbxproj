@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		E14D46AE26A45927008E9974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46AD26A45927008E9974 /* AppDelegate.swift */; };
 		E14D46B026A45927008E9974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46AF26A45927008E9974 /* SceneDelegate.swift */; };
-		E14D46B226A45927008E9974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46B126A45927008E9974 /* ViewController.swift */; };
-		E14D46B526A45927008E9974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D46B326A45927008E9974 /* Main.storyboard */; };
 		E14D46B726A4592A008E9974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14D46B626A4592A008E9974 /* Assets.xcassets */; };
 		E14D46BA26A4592A008E9974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D46B826A4592A008E9974 /* LaunchScreen.storyboard */; };
+		E14D46C426A459A2008E9974 /* QuotesContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46C326A459A2008E9974 /* QuotesContract.swift */; };
+		E14D46C626A45A22008E9974 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46C526A45A22008E9974 /* Quote.swift */; };
+		E14D46CA26A45AD7008E9974 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46C926A45AD7008E9974 /* QuotesViewController.swift */; };
+		E14D46CC26A45CBF008E9974 /* QuotesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46CB26A45CBF008E9974 /* QuotesPresenter.swift */; };
+		E14D46CE26A46252008E9974 /* QuotesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46CD26A46252008E9974 /* QuotesInteractor.swift */; };
+		E14D46D026A46B7B008E9974 /* QuotesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46CF26A46B7B008E9974 /* QuotesRouter.swift */; };
+		E14D46D326A4D689008E9974 /* QuoteDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46D226A4D689008E9974 /* QuoteDetailRouter.swift */; };
+		E14D46D526A4D6B5008E9974 /* QuoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46D426A4D6B5008E9974 /* QuoteDetailViewController.swift */; };
+		E14D46D726A4D6DD008E9974 /* QuoteDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46D626A4D6DD008E9974 /* QuoteDetailContract.swift */; };
+		E14D46D926A4DB73008E9974 /* QuoteDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46D826A4DB73008E9974 /* QuoteDetailInteractor.swift */; };
+		E14D46DB26A4DC1E008E9974 /* QuoteDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46DA26A4DC1E008E9974 /* QuoteDetailPresenter.swift */; };
+		E14D46E026A5B6D5008E9974 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46DF26A5B6D5008E9974 /* AppRouter.swift */; };
+		E14D46E326A5C571008E9974 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46E226A5C571008E9974 /* BaseViewController.swift */; };
+		E14D46E726A5F68C008E9974 /* QuotesModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14D46E626A5F68C008E9974 /* QuotesModule.storyboard */; };
+		E14D46E926A5F728008E9974 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46E826A5F728008E9974 /* Extensions.swift */; };
+		E14D46ED26A60EB2008E9974 /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46EC26A60EB2008E9974 /* StoryBoard.swift */; };
+		E14D46EF26A61046008E9974 /* AppContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14D46EE26A61046008E9974 /* AppContract.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E14D46AA26A45927008E9974 /* VIPER - Simpson Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER - Simpson Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14D46AD26A45927008E9974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14D46AF26A45927008E9974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E14D46B126A45927008E9974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E14D46B426A45927008E9974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E14D46B626A4592A008E9974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14D46B926A4592A008E9974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14D46BB26A4592A008E9974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14D46C326A459A2008E9974 /* QuotesContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesContract.swift; sourceTree = "<group>"; };
+		E14D46C526A45A22008E9974 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		E14D46C926A45AD7008E9974 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		E14D46CB26A45CBF008E9974 /* QuotesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesPresenter.swift; sourceTree = "<group>"; };
+		E14D46CD26A46252008E9974 /* QuotesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesInteractor.swift; sourceTree = "<group>"; };
+		E14D46CF26A46B7B008E9974 /* QuotesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesRouter.swift; sourceTree = "<group>"; };
+		E14D46D226A4D689008E9974 /* QuoteDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailRouter.swift; sourceTree = "<group>"; };
+		E14D46D426A4D6B5008E9974 /* QuoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailViewController.swift; sourceTree = "<group>"; };
+		E14D46D626A4D6DD008E9974 /* QuoteDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailContract.swift; sourceTree = "<group>"; };
+		E14D46D826A4DB73008E9974 /* QuoteDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailInteractor.swift; sourceTree = "<group>"; };
+		E14D46DA26A4DC1E008E9974 /* QuoteDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailPresenter.swift; sourceTree = "<group>"; };
+		E14D46DF26A5B6D5008E9974 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		E14D46E226A5C571008E9974 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E14D46E626A5F68C008E9974 /* QuotesModule.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QuotesModule.storyboard; sourceTree = "<group>"; };
+		E14D46E826A5F728008E9974 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E14D46EC26A60EB2008E9974 /* StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
+		E14D46EE26A61046008E9974 /* AppContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContract.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,118 @@
 		E14D46AC26A45927008E9974 /* VIPER - Simpson Quotes */ = {
 			isa = PBXGroup;
 			children = (
-				E14D46AD26A45927008E9974 /* AppDelegate.swift */,
-				E14D46AF26A45927008E9974 /* SceneDelegate.swift */,
-				E14D46B126A45927008E9974 /* ViewController.swift */,
-				E14D46B326A45927008E9974 /* Main.storyboard */,
-				E14D46B626A4592A008E9974 /* Assets.xcassets */,
-				E14D46B826A4592A008E9974 /* LaunchScreen.storyboard */,
-				E14D46BB26A4592A008E9974 /* Info.plist */,
+				E14D46E426A5F549008E9974 /* Assets */,
+				E14D46C126A45959008E9974 /* Modules */,
+				E14D46C726A45A91008E9974 /* Common */,
+				E14D46E126A5C53D008E9974 /* UI */,
+				E14D46EB26A60EA3008E9974 /* Utils */,
+				E14D46E526A5F58F008E9974 /* Configurations */,
 			);
 			path = "VIPER - Simpson Quotes";
+			sourceTree = "<group>";
+		};
+		E14D46C126A45959008E9974 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46DC26A5B1D4008E9974 /* App */,
+				E14D46C226A45962008E9974 /* Quotes */,
+				E14D46D126A4D67D008E9974 /* QuoteDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E14D46C226A45962008E9974 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46C326A459A2008E9974 /* QuotesContract.swift */,
+				E14D46C926A45AD7008E9974 /* QuotesViewController.swift */,
+				E14D46CD26A46252008E9974 /* QuotesInteractor.swift */,
+				E14D46CB26A45CBF008E9974 /* QuotesPresenter.swift */,
+				E14D46CF26A46B7B008E9974 /* QuotesRouter.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		E14D46C726A45A91008E9974 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46C826A45AA7008E9974 /* Entity */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E14D46C826A45AA7008E9974 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46C526A45A22008E9974 /* Quote.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E14D46D126A4D67D008E9974 /* QuoteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46D626A4D6DD008E9974 /* QuoteDetailContract.swift */,
+				E14D46D426A4D6B5008E9974 /* QuoteDetailViewController.swift */,
+				E14D46D826A4DB73008E9974 /* QuoteDetailInteractor.swift */,
+				E14D46DA26A4DC1E008E9974 /* QuoteDetailPresenter.swift */,
+				E14D46D226A4D689008E9974 /* QuoteDetailRouter.swift */,
+			);
+			path = QuoteDetail;
+			sourceTree = "<group>";
+		};
+		E14D46DC26A5B1D4008E9974 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46EE26A61046008E9974 /* AppContract.swift */,
+				E14D46DF26A5B6D5008E9974 /* AppRouter.swift */,
+				E14D46AD26A45927008E9974 /* AppDelegate.swift */,
+				E14D46AF26A45927008E9974 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E14D46E126A5C53D008E9974 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46EA26A5FDFA008E9974 /* StoryBoards */,
+				E14D46E226A5C571008E9974 /* BaseViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E14D46E426A5F549008E9974 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46B626A4592A008E9974 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E14D46E526A5F58F008E9974 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46BB26A4592A008E9974 /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		E14D46EA26A5FDFA008E9974 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46B826A4592A008E9974 /* LaunchScreen.storyboard */,
+				E14D46E626A5F68C008E9974 /* QuotesModule.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E14D46EB26A60EA3008E9974 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E14D46E826A5F728008E9974 /* Extensions.swift */,
+				E14D46EC26A60EB2008E9974 /* StoryBoard.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +259,7 @@
 			files = (
 				E14D46BA26A4592A008E9974 /* LaunchScreen.storyboard in Resources */,
 				E14D46B726A4592A008E9974 /* Assets.xcassets in Resources */,
-				E14D46B526A45927008E9974 /* Main.storyboard in Resources */,
+				E14D46E726A5F68C008E9974 /* QuotesModule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +270,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E14D46B226A45927008E9974 /* ViewController.swift in Sources */,
+				E14D46D026A46B7B008E9974 /* QuotesRouter.swift in Sources */,
+				E14D46CA26A45AD7008E9974 /* QuotesViewController.swift in Sources */,
 				E14D46AE26A45927008E9974 /* AppDelegate.swift in Sources */,
+				E14D46C426A459A2008E9974 /* QuotesContract.swift in Sources */,
+				E14D46CC26A45CBF008E9974 /* QuotesPresenter.swift in Sources */,
+				E14D46E926A5F728008E9974 /* Extensions.swift in Sources */,
+				E14D46CE26A46252008E9974 /* QuotesInteractor.swift in Sources */,
+				E14D46D526A4D6B5008E9974 /* QuoteDetailViewController.swift in Sources */,
+				E14D46E026A5B6D5008E9974 /* AppRouter.swift in Sources */,
+				E14D46EF26A61046008E9974 /* AppContract.swift in Sources */,
+				E14D46C626A45A22008E9974 /* Quote.swift in Sources */,
+				E14D46D326A4D689008E9974 /* QuoteDetailRouter.swift in Sources */,
 				E14D46B026A45927008E9974 /* SceneDelegate.swift in Sources */,
+				E14D46D926A4DB73008E9974 /* QuoteDetailInteractor.swift in Sources */,
+				E14D46E326A5C571008E9974 /* BaseViewController.swift in Sources */,
+				E14D46DB26A4DC1E008E9974 /* QuoteDetailPresenter.swift in Sources */,
+				E14D46D726A4D6DD008E9974 /* QuoteDetailContract.swift in Sources */,
+				E14D46ED26A60EB2008E9974 /* StoryBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E14D46B326A45927008E9974 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E14D46B426A45927008E9974 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E14D46B826A4592A008E9974 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +428,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R38K25C8UB;
-				INFOPLIST_FILE = "VIPER - Simpson Quotes/Info.plist";
+				INFOPLIST_FILE = "VIPER - Simpson Quotes/Configurations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R38K25C8UB;
-				INFOPLIST_FILE = "VIPER - Simpson Quotes/Info.plist";
+				INFOPLIST_FILE = "VIPER - Simpson Quotes/Configurations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
